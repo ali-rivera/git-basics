@@ -41,7 +41,7 @@ Assuming you are authenticating to GitHub using SSH keys, here are the steps to 
 1. Within [GitHub](https://github.com/) find the existing repository you want to clone.
 2. From the repository page, find the blue "Code" button, and select the SSH tab within the dropdown. If you are using a PAT for authentication, use the HTTPS address.
 3. Copy the address, which will look something like `git@github.com:UVADS/git-basics.git` (SSH) or `https://github.com/UVADS/git-basics.git` (HTTPS). 
-4. In the command-line on your local computer, clone the repo. If using an SSH key to authenticate to GitHub, use this format:
+4. In the command-line on your local computer, navigate to where you want the directory to live and clone the repo. If using an SSH key to authenticate to GitHub, use this format:
 
     ```
     git clone git@github.com:UVADS/git-basics.git
